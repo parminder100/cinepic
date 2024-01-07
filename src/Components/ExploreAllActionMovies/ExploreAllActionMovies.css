@@ -1,0 +1,79 @@
+.explore-all-action-movies-section{
+    padding-top: 90px;
+}
+.explore-all-action-movies-section a{
+    text-decoration: none;
+}
+.explore-all-action-movies-section .all-action-movies-images{
+    width: 100%;
+    border-radius: 8px;
+}
+.explore-all-action-movies-section .all-action-movies-images-wrapper:hover .all-action-movies-images{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.explore-all-action-movies-section .all-action-movies-images-wrapper:hover{
+    transform: scale(1.5);
+}
+.explore-all-action-movies-section .all-action-movies-images-wrapper .all-action-movie-details{
+    opacity: 0;
+    display: none;
+}
+.explore-all-action-movies-section .all-action-movies-images-wrapper:hover .all-action-movie-details{
+    opacity: 1;
+    display: block;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    background-color: rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.mobile-all-action-movie-details{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    background-color: rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.mobile-all-action-movie-details .movie-title{
+    font-size: 18px;
+    color: #fff;
+}
+.explore-all-action-movies-section .all-action-movies-images-wrapper .all-action-movie-details .movie-title{
+    color: #fff;
+    font-size: 11px;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .explore-all-action-movies-section .all-action-movies-images-wrapper:hover{
+        transform: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .explore-all-action-movies-section .all-action-movies-images-wrapper:hover{
+        transform: none;
+    }
+    .all-action-movies-images-main-wrapper{
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .explore-all-top-rated-movies-section .all-top-rated-movies-images-wrapper:hover {
+        transform: none;
+    }
+    .all-action-movies-images-main-wrapper{
+        width: 33% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .all-action-movies-images-main-wrapper{
+        width: 25% !important;
+    }
+}

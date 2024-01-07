@@ -1,0 +1,110 @@
+header{
+    position: fixed;
+    left: 0px;
+    right:0px;
+    color: #fff;
+    z-index: 1000;
+    padding:10px;
+}
+.header-scrolled{
+    background-color: #000;
+    transition: background-color 0.5s ease;
+}
+header .custom-navbar{
+    justify-content: flex-end;
+}
+.logo{
+    width: 60px;
+}
+.navbar-item-container{
+    justify-content: flex-end;
+}
+.navbar-list-items{
+    gap:30px;
+}
+.navbar-list-items li a{
+    color: #fff;
+}
+.navbar-list-items li .nav-link.active{
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    .header-left-col{
+        width: 50% !important;
+    }
+    .header-right-col{
+        width: 50% !important;
+    }
+    header .header-custom-row{
+        align-items: flex-start !important;
+    }
+    header .custom-navbar{
+        justify-content: flex-end;
+        text-align: end;
+    }
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .custom-navbar-items{
+        text-align: end;
+        margin-top: 10px;
+    }
+    .navbar .custom-navbar-btn{
+        background-color: #fff;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    header .header-custom-row{
+        align-items: flex-start !important;
+    }
+    header .custom-navbar{
+        justify-content: flex-end;
+        text-align: end;
+    }
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .custom-navbar-items{
+        text-align: end;
+        margin-top: 10px;
+    }
+    .navbar .custom-navbar-btn{
+        background-color: #fff;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header .header-custom-row{
+        align-items: flex-start !important;
+    }
+    header .custom-navbar{
+        justify-content: flex-end;
+        text-align: end;
+    }
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .custom-navbar-items{
+        text-align: end;
+        margin-top: 10px;
+    }
+    .navbar .custom-navbar-btn{
+        background-color: #fff;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    header .custom-navbar{
+        justify-content: flex-end;
+        padding:0px;
+    }
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

@@ -1,0 +1,42 @@
+.popup-container {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-container {
+    text-align: center;
+}
+.close-button {
+    text-align: end;
+    cursor: pointer;
+}
+.centered-video {
+    display: block;
+    margin: 0 auto;
+}
+.movie-trailer-close-btn{
+    width: 22px;
+    height: 22px;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .popup-container{
+        top: 50%;
+    }
+    .movie-details-section .popup-container .video-container iframe{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .popup-container{
+        top: 50%;
+    }
+}

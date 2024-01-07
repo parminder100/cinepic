@@ -1,0 +1,83 @@
+.explore-all-now-playing-movies-section{
+    padding-top: 90px;
+}
+.explore-all-now-playing-movie-image{
+    width: 100%;
+    border-radius: 8px;
+}
+.mobile-all-now-playing-movie-details{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    background-color: rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.mobile-all-now-playing-movie-details .movie-title{
+    font-size: 18px;
+    color: #fff;
+}
+.explore-all-now-playing-movies-section a{
+    text-decoration: none;
+}
+.explore-all-now-playing-card{
+    height: 120px;
+}
+.explore-all-now-playing-movies-section .explore-all-now-playing-movies-images-wrapper .all-top-rated-movie-details{
+    opacity: 0;
+    display: none;
+}
+.explore-all-now-playing-movies-section .explore-all-now-playing-movies-images-wrapper:hover .all-top-rated-movie-details{
+    opacity: 1;
+    display: block;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    background-color: rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.explore-all-now-playing-movies-section .explore-all-now-playing-movies-images-wrapper:hover{
+    transform: scale(1.5);
+}
+
+
+@media (max-width: 575.98px) {
+    .explore-all-now-playing-card{
+        margin-bottom: 1.5rem;
+        height: auto;
+    }
+    .explore-all-now-playing-movies-section .explore-all-now-playing-movies-images-wrapper:hover{
+        transform: none;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .explore-all-now-playing-card{
+        margin-bottom: 1.5rem;
+        height: auto;
+    }
+    .explore-all-now-playing-movies-section .explore-all-now-playing-movies-images-wrapper:hover{
+        transform: none;
+    }
+    .explore-all-now-playing-card{
+        width: 50% !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .explore-all-now-playing-card{
+        margin-bottom: 1.5rem;
+        height: auto;
+    }
+    .explore-all-now-playing-movies-section .explore-all-now-playing-movies-images-wrapper:hover{
+        transform: none;
+    }
+    .explore-all-now-playing-card{
+        width: 33% !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .explore-all-now-playing-card{
+        width: 25% !important;
+    }
+}

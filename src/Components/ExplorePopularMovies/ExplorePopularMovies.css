@@ -1,0 +1,107 @@
+.explore-popular-movies-section{
+    padding-top: 85px;
+}
+.explore-popular-movies-section a{
+    text-decoration: none;
+}
+.all-popular-movies-images{
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.pagination{
+    justify-content: center;
+}
+.pagination .current-page-number{
+    width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+.navigation-btn{
+    background-color: #f53116;
+    color:#fff;
+    border-width: 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+}
+.navigation-btn:disabled{
+    opacity: 0.2;
+}
+.explore-popular-movie-image:hover{
+    transform: scale(1.5);
+}
+.explore-popular-movie-details-card{
+    opacity: 0;
+    display: none;
+}
+.mobile-explore-popular-movie-details-card{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    background-color: rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    padding:10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.mobile-explore-popular-movie-details-card .explor-popular-movie-title{
+    font-size: 18px;
+}
+.explore-popular-movie-image:hover .all-popular-movies-images{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.explore-popular-movie-image:hover .explore-popular-movie-details-card{
+    opacity: 1;
+    display: block;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    background-color: rgb(20, 20, 20);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+    padding:10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.explor-popular-movie-title{
+    font-size: 11px;
+    color: #fff;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .all-popular-movies-images{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .explore-popular-movie-image:hover {
+        transform: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .explore-all-popular-movies-main-wrapper{
+        width: 50%;
+    }
+    .explore-popular-movie-image:hover {
+        transform: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .explore-all-popular-movies-main-wrapper{
+        width: 33%;
+    }
+    .explore-popular-movie-image:hover {
+        transform: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .explore-all-popular-movies-main-wrapper{
+        width: 25%;
+    }
+    .explore-popular-movie-image:hover {
+        transform: none;
+    }
+}
